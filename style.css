@@ -1,9 +1,9 @@
 
-.mobile-display{
-  display:none
-}
 .desktop-display{
   display:block
+}
+.mobile-display{
+  display:none
 }
 @media (max-width:800px){
   .desktop-display {display:none}
