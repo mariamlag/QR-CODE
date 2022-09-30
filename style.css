@@ -1,16 +1,5 @@
 
-.desktop-display{
-  display:block
-}
-.mobile-display{
-  display:none
-}
-@media (max-width:800px){
-  .desktop-display {display:none}
-  .mobile-display {display:block}
-  }
 .desktop-display {
-  position: absolute;
   height: 497px;
   width: 320px;
   left: 560px;
@@ -20,17 +9,7 @@
   overflow: hidden;
   padding: 16px;
 }
-.mobile-display{
-  position: absolute;
-  width: 320px;
-  height: 497px;
-  left: 28px;
-  top: 85px;
-  background: #FFFFFF;
-  padding: 16px;
-  border-radius: 20px;
-  overflow: hidden;
-}
+
 body {
   display: flex;
   justify-content: center;
